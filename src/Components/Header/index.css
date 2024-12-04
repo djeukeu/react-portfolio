@@ -1,3 +1,8 @@
-.menuIcon{
-    font-size: 24px;
+.menuIcon {
+	font-size: 24px;
+}
+@media (max-width: 768px) {
+	.customVh {
+		height: 50vh;
+	}
 }

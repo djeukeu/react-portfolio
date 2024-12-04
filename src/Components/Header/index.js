@@ -13,7 +13,7 @@ const Header = () => {
 
 	return (
 		<header
-			className='h-screen lg:bg-cover bg-contain bg-no-repeat'
+			className='customVh lg:h-screen bg-cover bg-no-repeat'
 			style={{
 				backgroundImage:
 					"url('https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif')",
@@ -58,17 +58,6 @@ const Header = () => {
 						</div>
 					</div>
 				</nav>
-
-				<div className='h-screen flex flex-col lg:justify-center md:mt-32 mt-8 items-center'>
-					<h1 className='mb-4 text-3xl font-extrabold leading-none tracking-tight text-gray-900 md:text-5xl lg:text-6xl text-black'>
-						Hi 👋 I'm  Djeukeu,
-					</h1>
-					<a
-						href='#projects'
-						className='uppercase inline-flex items-center justify-center px-5 py-3 text-base font-medium text-center text-white bg-gray-700 rounded-lg hover:bg-gray-800 focus:ring-4 focus:ring-gray-300 focus:ring-gray-900'>
-						Work with me
-					</a>
-				</div>
 			</div>
 		</header>
 	);
