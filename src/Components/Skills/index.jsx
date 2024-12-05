@@ -3,7 +3,7 @@ import { skills } from '../../Constants';
 
 const Skills = () => {
 	return (
-		<section id='skills' className='mx-8'>
+		<section id='skills' className='mx-8 my-12'>
 			<div className='container mx-auto divide-y divide-gray-200 dark:divide-gray-700'>
 				<div className='space-y-2 pb-8 pt-6 space-y-5'>
 					<h1 className='text-3xl font-extrabold leading-9 tracking-tight text-black-900 sm:text-4xl sm:leading-10 md:text-6xl md:leading-14'>
