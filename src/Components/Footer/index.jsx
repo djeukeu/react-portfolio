@@ -16,7 +16,7 @@ const Footer = () => {
 							<div className='px-5 py-2' key={item.id}>
 								<a
 									href={`#${item.id}`}
-									className='text-base leading-6 text-gray-500 hover:text-blue-900'>
+									className='text-base leading-6 text-gray-500 hover:text-gray-900'>
 									{item.page}
 								</a>
 							</div>

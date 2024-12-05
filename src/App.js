@@ -3,13 +3,14 @@ import './App.css';
 import Header from './Components/Header';
 import Footer from './Components/Footer';
 import About from './Components/About';
+import Skills from './Components/Skills';
 
 const App = () => {
 	return (
 		<div id='top'>
 			<Header />
 			<About />
-			{/* <Skills /> */}
+			<Skills />
 			{/* <Projects /> */}
 			{/* <Contact /> */}
 			<Footer />
