@@ -20,7 +20,7 @@ const Header = () => {
 						"url('https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif')",
 				}}>
 				<div className='flex flex-col justify-between text-white'>
-					<nav className='bg-white border-gray-200 bg-gray-900'>
+					<nav className='border-gray-200 bg-gray-900'>
 						<div className='max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4'>
 							<a
 								className='flex items-center space-x-3 rtl:space-x-reverse'
@@ -43,7 +43,7 @@ const Header = () => {
 							<div
 								className={`w-full md:block md:w-auto ${!menu && 'hidden'}`}
 								id='navbar-default'>
-								<ul className='font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 md:bg-white bg-gray-800 md:bg-gray-900 border-gray-700'>
+								<ul className='font-medium flex flex-col p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:flex-row md:space-x-8 rtl:space-x-reverse md:mt-0 md:border-0 bg-gray-800 md:bg-gray-900 border-gray-700'>
 									{pages.map((item) => {
 										return (
 											<li key={item.id}>
